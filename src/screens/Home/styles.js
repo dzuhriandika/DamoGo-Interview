@@ -69,7 +69,7 @@ export default StyleSheet.create({
     width: 53,
     height: 53,
     borderRadius: 50,
-    backgroundColor: 'red',
+    backgroundColor: 'transparent',
     alignContent: 'center',
     justifyContent: 'center',
     alignItems: 'center',
@@ -83,6 +83,7 @@ export default StyleSheet.create({
     marginBottom: 20,
     width: 288,
     backgroundColor: 'white',
+    marginLeft: 8,
   },
   cardCabangToko: {
     borderRadius: 10,
@@ -90,7 +91,9 @@ export default StyleSheet.create({
     width: 120,
     height: 113,
     backgroundColor: 'white',
-    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center',
+    marginRight: 8,
   },
   itemCabangToko: {
     height: 85,
@@ -98,6 +101,7 @@ export default StyleSheet.create({
   valueCabangToko: {
     backgroundColor: '#00A3E0',
     height: 30,
+    width: 100 + '%',
     borderBottomLeftRadius: 10,
     borderBottomRightRadius: 10,
   },

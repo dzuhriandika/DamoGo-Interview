@@ -9,6 +9,11 @@ import {
   CartStack,
   HistoryStack,
 } from './stackNavigator';
+import Home from '../svg/Home';
+import Maps from '../svg/Maps';
+import Cart from '../svg/Cart';
+import Favorit from '../svg/Favorit';
+import History from '../svg/History';
 
 export const AppStack = createBottomTabNavigator(
   {
@@ -16,40 +21,33 @@ export const AppStack = createBottomTabNavigator(
       screen: HomeStack,
       navigationOptions: {
         tabBarIcon: ({tintColor}) => (
-          <Icon name="ios-home" color={tintColor} size={25} />
+          <Home />
+          //<Icon name="ios-home" color={tintColor} size={25} />
         ),
       },
     },
     Maps: {
       screen: MapsStack,
       navigationOptions: {
-        tabBarIcon: ({tintColor}) => (
-          <Icon name="ios-list" color={tintColor} size={25} />
-        ),
+        tabBarIcon: ({tintColor}) => <Maps />,
       },
     },
     Favorit: {
       screen: FavoritStack,
       navigationOptions: {
-        tabBarIcon: ({tintColor}) => (
-          <Icon name="ios-person" color={tintColor} size={25} />
-        ),
+        tabBarIcon: ({tintColor}) => <Favorit />,
       },
     },
     Cart: {
       screen: CartStack,
       navigationOptions: {
-        tabBarIcon: ({tintColor}) => (
-          <Icon name="ios-list" color={tintColor} size={25} />
-        ),
+        tabBarIcon: ({tintColor}) => <Cart />,
       },
     },
     History: {
       screen: HistoryStack,
       navigationOptions: {
-        tabBarIcon: ({tintColor}) => (
-          <Icon name="ios-person" color={tintColor} size={25} />
-        ),
+        tabBarIcon: ({tintColor}) => <History />,
       },
     },
   },

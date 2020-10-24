@@ -32,14 +32,6 @@ const images = {
   bImage: require('../image/bimage.png'),
   berita1: require('../image/berita1.jpg'),
   berita2: require('../image/berita2.jpg'),
-  galeri1aceh: require('../image/gallery/aceh.jpg'),
-  galeri2bali: require('../image/gallery/bali.jpg'),
-  galeri3dayak: require('../image/gallery/dayak.jpg'),
-  galeri4irian: require('../image/gallery/irian.jpg'),
-  galeri5jepara: require('../image/gallery/jepara.jpg'),
-  galeri6jogja: require('../image/gallery/jogja.jpg'),
-  galeri7surakarta: require('../image/gallery/surakarta.jpg'),
-  galeri8toraja: require('../image/gallery/toraja.jpg'),
   pattern: require('../image/pattern.png'),
 };
 
