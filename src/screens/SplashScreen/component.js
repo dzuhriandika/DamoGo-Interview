@@ -24,7 +24,10 @@ export default class Login extends Component {
       <View style={styles.container}>
         <View style={styles.logoContainer}>
           <Image
-            source={IMAGES.appLogo}
+            source={{
+              uri:
+                'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.seoulvcconnect.com%2Fwp-content%2Fuploads%2F2020%2F09%2Fsvc-batch2-startup-logo-damogo.png&f=1&nofb=1',
+            }}
             resizeMode="contain"
             style={styles.logo}
           />
